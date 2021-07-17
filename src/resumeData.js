@@ -4,9 +4,9 @@ let resumeData = {
   linkedinId: "vivekkshukla14",
   skypeid: "vivek.kshukla14",
   viewResume:
-    "https://drive.google.com/file/d/1w-0nod4wx2WMvomhC34r8MebSW7-pefD/view",
+    "https://drive.google.com/file/d/1dyrXkn7QgA3_08a6rJtjEvYWdrXeDrcq/view",
   downloadResume:
-    "https://drive.google.com/uc?export=download&id=1w-0nod4wx2WMvomhC34r8MebSW7-pefD",
+    "https://drive.google.com/uc?export=download&id=1dyrXkn7QgA3_08a6rJtjEvYWdrXeDrcq",
   footerAbout:
     "I am Here to fulfil your every need that arises which has a front end and a back one.",
   email: "vivek.kshukla14@gmail.com",
@@ -64,9 +64,9 @@ let resumeData = {
     },
   ],
   aboutme:
-    "I am currently a final year student at The CCET,CHD pursuing my B.E from here. I am on the road to become Full Stack Developer, currently diving deeper into Web Development. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
+    "I am a Software Developer by profession. I Completed my Bachelor Degree in CSE from CCET,CHD on 2021. I am on the road to become Full Stack Developer, currently diving deeper into Web Development. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
   address: "India",
-  website: "https://vivekkshukla14.github.io",
+  website: "https://vivekkshukla1410.github.io",
   education: [
     {
       universityName:
@@ -96,7 +96,7 @@ let resumeData = {
       startDate: "Jan 2021",
       endDate: "Present",
       Description:
-        "Working as Java Developer on the Java Swings Based Desktop Application developed Using Java Swings ,Spark Java. My Work includes meeting the client requirements like UI changes and feature requests made by them. My Other tasks includes testing the components which we changed and are changing along with the testing on API on different servers using Postman Application. My Current tasks were to change the application to work with the Swing Worker functionality.",
+        "Working as Java Developer on a Few Projects mainly my work is related to a Java Swings Based Desktop Application developed Using Java Swings ,Spark Java. My Work includes meeting the client requirements like UI changes and feature requests made by them. My Other tasks includes testing the components which we changed and are changing along with the testing on API on different servers using Postman Application. My Current tasks were to change the application to work with the Swing Worker functionality.",
     },
   ],
   skillsDescription: "Skills",
@@ -131,40 +131,54 @@ let resumeData = {
     },
     {
       skillname: "MySQL",
-      skillvalue: "77%",
+      skillvalue: "68%",
     },
     {
       skillname: "Linux",
-      skillvalue: "69%",
+      skillvalue: "64%",
+    },
+    {
+      skillname: "SpringBoot",
+      skillvalue: "54%",
+    },
+    {
+      skillname: "React.js",
+      skillvalue: "42%",
     },
   ],
   projects: [
     {
-      default: "Student Portal",
       projectNo: "project1",
+      projectName: "Excel Integrated Application To display Market Data",
+      timeFrame: "Feb, 2021 - Present | Technologies : C#, Spark Java, VBA",
+      description:
+        "It helps in monitoring Real Time Stock Data on Excel. We Simply need to add Some tickers/symbol and select what type of data we want to view.It will display the type of data that we selected.",
+    },
+    {
+      projectNo: "project2",
+      projectName: "Desktop Application To Monitor Real Time Market Data",
+      timeFrame:
+        "Feb, 2021 - Present | Technologies : Java Swings, Spark Java ",
+      description:
+        "It displays and visualizes data of Stock Market in the form of tables and graph. The User Can customize different Tabs according to its personal preferences and integrate different component in the multiple tabs to keeps tracks of the companies.",
+    },
+    {
+      projectNo: "project3",
       projectName: "Student Portal",
-      timeFrame: "Jan, 2021 | Technologies : Java ,Spark Java , JDBC , MySQL",
+      timeFrame: "Jan, 2021 | Technologies : Java, Spark Java, JDBC, MySQL",
       description:
         "Web Applications created using Java and spark using JDBC MySQL connection at the backed. We are performing Create ,Read ,Update and deletion operation. We are using bean class and reading database details using a config.properties file for easy access and updation.We are dealing data in JSON format.",
     },
     {
-      projectNo: "project2",
-      projectName: "Attendace Management System",
-      timeFrame:
-        "Oct, 2019 | Technologies : Java , Servlets , JSP , JDBC , MySQL",
-      description:
-        "Developed an Attendance Management System: The Basic web application to record and maintain the attendance details of a particular institution.",
-    },
-    {
-      projectNo: "project3",
+      projectNo: "project4",
       projectName: "Fee Management System",
-      timeFrame: "Jun, 2019 | Technologies : Java Swings, JDBC ,MySQL",
+      timeFrame: "Jun, 2019 | Technologies : Java Swings, JDBC, MySQL",
       description:
         "Developed a Fee Management System -A Desktop application to store, update, retrieve and delete the details of the students and students can raise their queries to the teacher as well as to an admin. Accountant can see total collection.",
     },
 
     {
-      projectNo: "project4",
+      projectNo: "project5",
       projectName: "JavaPad",
       timeFrame: "Jun, 2018 | Technologies : Java Swings",
       description:

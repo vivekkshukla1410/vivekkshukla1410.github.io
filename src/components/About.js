@@ -17,7 +17,6 @@ export default class About extends Component {
                 alt="profilePic"
               />
             </div> */}
-
             <div className="about-container">
               <span className="heading color1">About Me</span>
               <p className="normal-text">{resumeData.aboutme}</p>
@@ -26,26 +25,18 @@ export default class About extends Component {
                 <div className="about-details">
                   <h2 className="sub-heading color1">Contact Details</h2>
                   <p className="about-text normal-text color2">
-                    <span>{resumeData.name}</span>
-                    <br />
-                    {/* <span>
-                      <a
-                        href={resumeData.website}
-                        target="_blank"
-                        rel="noreferrer"
-                        className=""
-                        style={{ textDecoration: "none" }}
-                      >
-                        Personal Portfolio
-                      </a>
-                    </span> 
-                    <br />*/}
                     <span className="color1">
-                      Email : <span className="color2">{resumeData.email}</span>
+                      Name : <span className="color2">{resumeData.name}</span>
+                    </span>
+                    <span></span>
+                    <br />
+                    <span className="color1">
+                      Email :{" "}
+                      <span className="color2"> {resumeData.email}</span>
                     </span>
                     <br />
                     <span className="color1">
-                      Skype Id :{" "}
+                      Skype :{" "}
                       <span className="color2">{resumeData.skypeid}</span>
                     </span>
                     <br />
@@ -56,7 +47,8 @@ export default class About extends Component {
                   <ButtonGroup
                     disableElevation
                     variant="contained"
-                    color="primary"
+                    outlined
+                    color="light"
                     size="large"
                   >
                     <Button

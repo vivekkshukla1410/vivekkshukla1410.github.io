@@ -9,7 +9,7 @@ export default class Projects extends Component {
         <section id="projects" className="content">
           <div className="">
             <div className="">
-              <h1 className="heading color1">Projects I have Worked On</h1>
+              <h1 className="heading color1">Projects</h1>
             </div>
             <div className="">
               <div>

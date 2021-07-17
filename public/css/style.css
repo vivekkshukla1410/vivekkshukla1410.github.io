@@ -9,10 +9,38 @@ html {
   scroll-padding-top: 100px;
 }
 .App {
-  background-image: url(../images/6.jpg);
+  background-image: url(../images/7.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+body {
+  z-index: -5000;
+  top: 0%;
+  width: 100%;
+  overflow-x: hidden;
+  /* background-image: linear-gradient(to right bottom, #7f82cc, #47dcb4, #c24990); */
+  /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); */
+  background: linear-gradient(
+    to right bottom,
+    #3f2922,
+    #9a62ba,
+    #23a6d5,
+    #23d5ab
+  );
+  background-size: 600% 600%;
+  animation: gradient 10s ease infinite;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 /* PARALLAX  */
 .bg-image {
@@ -160,38 +188,10 @@ a {
   width: 80%;
   margin: 5% 10%;
   box-shadow: 0 0 10px 3px #75b4c0;
-  border-bottom: 2px solid #fff;
+  border-bottom: 3px solid #fff;
   border-radius: 25px;
 }
 
-body {
-  z-index: -5000;
-  top: 0%;
-  width: 100%;
-  overflow-x: hidden;
-  /* background-image: linear-gradient(to right bottom, #7f82cc, #47dcb4, #c24990); */
-  /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); */
-  background: linear-gradient(
-    to right bottom,
-    #3f2922,
-    #9a62ba,
-    #23a6d5,
-    #23d5ab
-  );
-  background-size: 600% 600%;
-  animation: gradient 10s ease infinite;
-}
-@keyframes gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
 /* Nav-Bar */
 nav {
   background: #262a33;
@@ -330,7 +330,7 @@ a.hover {
   transition: 0.3s;
 }
 .left .footer-content .social a span:hover {
-  background: #f12020;
+  background: #dfd3d3;
 }
 .center .footer-content .fas {
   font-size: 1.4375rem;
@@ -344,7 +344,7 @@ a.hover {
   cursor: pointer;
 }
 .center .footer-content .fas:hover {
-  background: #f12020;
+  background: #ffffff;
 }
 .center .footer-content .text {
   font-size: 1.0625rem;

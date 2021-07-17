@@ -15,9 +15,9 @@ class App extends Component {
       <div className="App">
         <Parallax resumeData={resumeData} />
         <Header />
-        <About resumeData={resumeData} />
+        <About resumeData={resumeData} className="bg1" />
         <hr />
-        <Employment resumeData={resumeData} />
+        <Employment resumeData={resumeData} className="bg2" />
         <hr />
         <Education resumeData={resumeData} />
         <hr />
