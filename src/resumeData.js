@@ -4,14 +4,14 @@ let resumeData = {
   linkedinId: "vivekkshukla14",
   skypeid: "vivek.kshukla14",
   viewResume:
-    "https://drive.google.com/file/d/1dyrXkn7QgA3_08a6rJtjEvYWdrXeDrcq/view",
+    "https://drive.google.com/file/d/1YQiAlOmkY80PXDSEmjZJgSe0dp0457c-/view",
   downloadResume:
-    "https://drive.google.com/uc?export=download&id=1dyrXkn7QgA3_08a6rJtjEvYWdrXeDrcq",
+    "https://drive.google.com/uc?export=download&id=1YQiAlOmkY80PXDSEmjZJgSe0dp0457c-",
   footerAbout:
     "I am Here to fulfil your every need that arises which has a front end and a back one.",
   email: "vivek.kshukla14@gmail.com",
   roleDescription:
-    "My goals is to forge your ideas into your reality.Currently at Zversal as a Java Developer focusing on developing my Skills and building experiences.",
+    "My goals is to forge your ideas into your reality. Currently at Zversal as a Java Developer focusing on developing my Skills and building experiences.",
   parallaxDetails: [
     {
       detail: "vivek.kshukla14@gmail.com",
@@ -73,7 +73,7 @@ let resumeData = {
         "Chandigarh College of Engineering & Technology,Chandigarh",
       course: "BE in CSE",
       timeFrame: "July 2018 - July 2021",
-      score: "7.5 CGPA",
+      score: "7.46 CGPA",
     },
     {
       universityName:
@@ -93,10 +93,18 @@ let resumeData = {
     {
       CompanyName: "Zversal Private Limited",
       specialization: "Java Developer",
-      startDate: "Jan 2021",
+      startDate: "July 2021",
       endDate: "Present",
       Description:
-        "Working as Java Developer on a Few Projects mainly my work is related to a Java Swings Based Desktop Application developed Using Java Swings ,Spark Java. My Work includes meeting the client requirements like UI changes and feature requests made by them. My Other tasks includes testing the components which we changed and are changing along with the testing on API on different servers using Postman Application. My Current tasks were to change the application to work with the Swing Worker functionality.",
+        "Currently Working on the Integration of Mix Panel analytics application in our desktop based application to analyze the User Movement in our application and collecting user analytic information. Also involved in the deployment and testing of the application on the UAT environment. Previously working on the migration of processes and monitoring and testing of them.",
+    },
+    {
+      CompanyName: "Zversal Private Limited",
+      specialization: "Java Developer Intern",
+      startDate: "Jan 2021",
+      endDate: "June 2021",
+      Description:
+        "Worked on a Desktop Based Application Developed using Java Swing, Spark Java, My Main focus is to make changes required by the client and test them for any discrepancy. Also Worked on Excel Integrated Application to monitor marked data. My contribution included debugging the problem that was reported by users and solving them and testing them. Also Involved in the Testing of the application in UAT and Prod Environment.",
     },
   ],
   skillsDescription: "Skills",
@@ -108,6 +116,10 @@ let resumeData = {
     {
       skillname: "CSS",
       skillvalue: "70%",
+    },
+    {
+      skillname: "Spark Java",
+      skillvalue: "80%",
     },
     {
       skillname: "Java",
@@ -149,18 +161,18 @@ let resumeData = {
   projects: [
     {
       projectNo: "project1",
-      projectName: "Excel Integrated Application To display Market Data",
-      timeFrame: "Feb, 2021 - Present | Technologies : C#, Spark Java, VBA",
-      description:
-        "It helps in monitoring Real Time Stock Data on Excel. We Simply need to add Some tickers/symbol and select what type of data we want to view.It will display the type of data that we selected.",
-    },
-    {
-      projectNo: "project2",
       projectName: "Desktop Application To Monitor Real Time Market Data",
       timeFrame:
         "Feb, 2021 - Present | Technologies : Java Swings, Spark Java ",
       description:
         "It displays and visualizes data of Stock Market in the form of tables and graph. The User Can customize different Tabs according to its personal preferences and integrate different component in the multiple tabs to keeps tracks of the companies.",
+    },
+    {
+      projectNo: "project2",
+      projectName: "Excel Integrated Application To display Market Data",
+      timeFrame: "April, 2021 - June,2021 | Technologies : C#, Spark Java, VBA",
+      description:
+        "It helps in monitoring Real Time Stock Data on Excel. We Simply need to add Some tickers/symbol and select what type of data we want to view.It will display the type of data that we selected.",
     },
     {
       projectNo: "project3",

@@ -19,7 +19,7 @@ export default class About extends Component {
             </div> */}
             <div className="about-container">
               <span className="heading color1">About Me</span>
-              <p className="normal-text">{resumeData.aboutme}</p>
+              <p className="normal-text color2">{resumeData.aboutme}</p>
 
               <div className="about-content">
                 <div className="about-details">
