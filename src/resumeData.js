@@ -151,11 +151,11 @@ let resumeData = {
     },
     {
       skillname: "SpringBoot",
-      skillvalue: "54%",
+      skillvalue: "34%",
     },
     {
       skillname: "React.js",
-      skillvalue: "42%",
+      skillvalue: "32%",
     },
   ],
   projects: [
