@@ -4,14 +4,14 @@ let resumeData = {
   linkedinId: "vivekkshukla14",
   skypeid: "vivek.kshukla14",
   viewResume:
-    "https://drive.google.com/file/d/1M7tS1xTAV4uMMcUs-gJMZaDE3M-lX0Vv/view",
+    "https://drive.google.com/file/d/12nG5neJsmM7Ax0L65LCLpmtpKThderZ0/view",
   downloadResume:
-    "https://drive.google.com/uc?export=download&id=1M7tS1xTAV4uMMcUs-gJMZaDE3M-lX0Vv",
+    "https://drive.google.com/uc?export=download&id=12nG5neJsmM7Ax0L65LCLpmtpKThderZ0",
   footerAbout:
     "I am Here to fulfil your every need that arises which has a front end and a back one.",
   email: "vivek.kshukla14@gmail.com",
   roleDescription:
-    "My goals is to forge your ideas into your reality. Currently at Zversal as a Java Developer focusing on developing my Skills and building experiences.",
+    "My goals is to forge your ideas into your reality. Currently Working as a Java Developer in a organization focusing on developing my Skills and building experiences.",
   parallaxDetails: [
     {
       detail: "vivek.kshukla14@gmail.com",
@@ -94,9 +94,9 @@ let resumeData = {
       CompanyName: "Zversal Private Limited",
       specialization: "Java Developer",
       startDate: "July 2021",
-      endDate: "Present",
+      endDate: "May 2022",
       Description:
-        "Currently Working on the Integration of Mix Panel analytics application in our desktop based application to analyze the User Movement in our application and collecting user analytic information. Also involved in the deployment and testing of the application on the UAT environment. Previously working on the migration of processes and monitoring and testing of them.",
+        "Worked in oracle migration (to MySQL or lambda) and removed dependent processes and projects where oracle DB was used. In addition, I am responsible for maintaining APIs or actions in the struts-based tomcat back-end and for deploying these APIs in test and dev servers.Developed a file upload and download feature utilizing AWS Lambda and S3 and incorporated it into the desktop application. Completed Integration of Mix Panel analytics application in our desktop based application to analyze the User interaction in our application and collecting user analytic information.",
     },
     {
       CompanyName: "Zversal Private Limited",
@@ -104,14 +104,14 @@ let resumeData = {
       startDate: "Jan 2021",
       endDate: "June 2021",
       Description:
-        "Worked on a Desktop Based Application Developed using Java Swing, Spark Java, My Main focus is to make changes required by the client and test them for any discrepancy. Also Worked on Excel Integrated Application to monitor marked data. My contribution included debugging the problem that was reported by users and solving them and testing them. Also Involved in the Testing of the application in UAT and Prod Environment.",
+        "Worked on a Desktop Based Application Developed using Java Swing, Spark Java, My Main focus is to make changes required by the client and test them for any discrepancy. Also Worked on Excel Integrated Application to monitor marked data. My contribution included debugging the problem that was reported by users and solving them and testing them. Also Involved in the Testing of the application in UAT and Prod Environment.Worked on Excel Integrated Application to monitor market data. My contribution included debugging the problem that was reported by users and solving them and testing them.",
     },
   ],
   skillsDescription: "Skills",
   skills: [
     {
       skillname: "HTML",
-      skillvalue: "72%",
+      skillvalue: "79%",
     },
     {
       skillname: "CSS",
@@ -119,11 +119,11 @@ let resumeData = {
     },
     {
       skillname: "Spark Java",
-      skillvalue: "80%",
+      skillvalue: "63%",
     },
     {
       skillname: "Java",
-      skillvalue: "78%",
+      skillvalue: "74%",
     },
     {
       skillname: "Git",
@@ -135,7 +135,7 @@ let resumeData = {
     },
     {
       skillname: "Postman",
-      skillvalue: "75%",
+      skillvalue: "82%",
     },
     {
       skillname: "REST",
@@ -163,14 +163,15 @@ let resumeData = {
       projectNo: "project1",
       projectName: "Desktop Application To Monitor Real Time Market Data",
       timeFrame:
-        "Feb, 2021 - Present | Technologies : Java Swings, Spark Java ",
+        "Feb, 2021 - May, 2022 | Technologies : Java Swings, Spark Java , Struts Backend ",
       description:
         "It displays and visualizes data of Stock Market in the form of tables and graph. The User Can customize different Tabs according to its personal preferences and integrate different component in the multiple tabs to keeps tracks of the companies.",
     },
     {
       projectNo: "project2",
       projectName: "Excel Integrated Application To display Market Data",
-      timeFrame: "April, 2021 - June,2021 | Technologies : C#, Spark Java, VBA",
+      timeFrame:
+        "April, 2021 - May, 2022 | Technologies : C#, Spark Java, VBA ,Struts Backend",
       description:
         "It helps in monitoring Real Time Stock Data on Excel. We Simply need to add Some tickers/symbol and select what type of data we want to view.It will display the type of data that we selected.",
     },
@@ -188,7 +189,6 @@ let resumeData = {
       description:
         "Developed a Fee Management System -A Desktop application to store, update, retrieve and delete the details of the students and students can raise their queries to the teacher as well as to an admin. Accountant can see total collection.",
     },
-
     {
       projectNo: "project5",
       projectName: "JavaPad",
