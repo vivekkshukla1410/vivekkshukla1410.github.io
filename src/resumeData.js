@@ -104,7 +104,7 @@ let resumeData = {
       startDate: "Jan 2021",
       endDate: "June 2021",
       Description:
-        "Worked on a Desktop Based Application Developed using Java Swing, Spark Java, My Main focus is to make changes required by the client and test them for any discrepancy. Also Worked on Excel Integrated Application to monitor marked data. My contribution included debugging the problem that was reported by users and solving them and testing them. Also Involved in the Testing of the application in UAT and Prod Environment.Worked on Excel Integrated Application to monitor market data. My contribution included debugging the problem that was reported by users and solving them and testing them.",
+        "Worked on a Desktop Based Application Developed using Java Swing, Spark Java, My Main focus is to make changes required by the client and test them for any discrepancy. Also Worked on Excel Integrated Application to monitor marked data. My contribution included debugging the problem that was reported by users and solving them and testing them.",
     },
   ],
   skillsDescription: "Skills",
